@@ -1,0 +1,504 @@
+{
+  "meta": {
+    "theme": "stackoverflow"
+  },
+  "basics": {
+    "name": "Mario Matos",
+    "label": "Software Developer",
+    "picture": "https://i.imgur.com/ted5iuI.png",
+    "summary": "Skilled Full Stack Software Engineer with more than 4 years of experience creating high-quality applications and features to address the diverse needs of users. Possesses an extensive list of successful projects across diverse business, research, and academic environments. ",
+    "email": "mariomatos889@gmail.com",
+    "phone": "(641) 451-9044",
+    "location": {
+      "countryCode": "US",
+      "address": "United States"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Mario Matos",
+        "url": "https://www.linkedin.com/in/mariomatos1/"
+      },
+      {
+        "network": "Github",
+        "username": "marioscience",
+        "url": "https://github.com/marioscience"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Spirit Technologies",
+      "endDate": "2019-12-31",
+      "highlights": [],
+      "position": "Software Engineer",
+      "startDate": "2018-11-30",
+      "summary": "- Development of different features for internal use CRM module using central ERP system. \n- Node.js implementation of services and client facing API. \n- Data handling, RESTful API design and implementation using Express.js. \n- MS SQL and MySQL server database systems. DML and DDL querying of data. \n- Angular.js front end application. Bootstrap, Webpack and other supporting libraries used.\n- Implementation of ASP.NET features and services.",
+      "website": "https://www.spirittechnologies.net/"
+    },
+    {
+      "company": "Neural Technology Solutions, SRL",
+      "endDate": "2018-09-30",
+      "highlights": [],
+      "position": "Software Engineer",
+      "startDate": "2018-04-30",
+      "summary": "- Development using ASP.NET in back end using C#.\n- Microsoft SQL DBMS System used. Writing of different DML and DDL queries. \n- Front End development using Angular (latest version).\n- Participated in standard stages of Agile Methodology.\n- Learned about Leasing and Taxed Fixed Assets Management Industries and other financial concepts.",
+      "website": "https://www.neural.com.do/"
+    },
+    {
+      "company": "Red Bell Real Estate",
+      "endDate": "2017-02-28",
+      "highlights": [],
+      "position": "Web Developer",
+      "startDate": "2015-08-31",
+      "summary": "- Development and maintenance of front end web applications using different technologies. - Implemented different technologies: AngularJS, TypeScript, JavaScript, Gulp, Bower/NPM, Sass, Twitter Bootstrap, Material Design, TFS Version control, Visual Studio, among other technologies. \n- Projects consisted in fixing something in the front-end side of an existing app or taking design mockups for new applications and working closely with designers and back-end devs to bring apps to life. \n- Found libraries to use as tools that solved a specific need in an app.\n- Learned many technologies that I needed for said projects. Also, studied how other applications worked to apply new techniques in my work.",
+      "website": "https://www.redbellre.com/"
+    },
+    {
+      "company": "Utah Water Research Lab",
+      "endDate": "2015-08-31",
+      "highlights": [],
+      "position": "Web Developer",
+      "startDate": "2014-01-31",
+      "summary": "- Development of Web Applications built from given design specifications. \n- Wrote DDL and DML SQL queries to design database schemas or complex data retrieval. \n- Used database schemas that often worked with other applications. \n- Developed applications using Django framework and JavaScript. \n- Acquired experience in Git and deployment of applications.\n- Worked on all levels of the software development stack. Back end, front end and data store layer experience.\n- Knowledge of the entire software development lifecycle. Proficiency building applications from requirements to deployment.",
+      "website": "https://uwrl.usu.edu/"
+    },
+    {
+      "company": "USU Campus Store",
+      "endDate": "2014-01-31",
+      "highlights": [],
+      "position": "IT Support",
+      "startDate": "2012-02-28",
+      "website": "https://usucampusstore.com/"
+    },
+    {
+      "company": "Computer Maitenance Service",
+      "endDate": "2011-08-31",
+      "highlights": [],
+      "position": "Computer Technician",
+      "startDate": "2010-03-31",
+      "website": ""
+    },
+    {
+      "company": "Yellow Pages",
+      "endDate": "2010-03-31",
+      "highlights": [],
+      "position": "Pagination",
+      "startDate": "2010-01-31",
+      "website": "https://www.yellowpages.com/"
+    },
+    {
+      "company": "REFIDOMSA",
+      "endDate": "2010-01-31",
+      "highlights": [],
+      "position": "Electronics Technician",
+      "startDate": "2008-10-31",
+      "website": "https://refidomsa.com/"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Maharishi International University",
+      "area": "Computer Science",
+      "studyType": "Master's degree",
+      "startDate": "2020-12-31",
+      "endDate": "2022-12-31",
+      "gpa": "",
+      "courses": [
+        "CS401 - Modern Programming Practices", 
+        "CS435 - Algorithm", 
+        "CS582 - Machine Learning", 
+        "CS488 - Big Data Analytics", 
+        "CS522 - Big Data"
+      ]
+    },
+    {
+      "institution": "Utah State University",
+      "area": "Computer Science",
+      "studyType": "Bachelor's degree",
+      "startDate": "2011-12-31",
+      "endDate": "2015-12-31",
+      "gpa": "",
+      "courses": [
+        "CS3100 - Operating Systems And Concurrency",
+        "CS4700 - Programming Languages",
+        "CS3810 - Computer Architecture",
+        "CS5410 - Game Development",
+        "CS5050 - Advanced Algorithms"
+      ]
+    },
+    {
+      "institution": "Instituto Politecnico Loyola",
+      "area": "Microcomputation",
+      "studyType": "Digital Electronics Technician",
+      "startDate": "2005-12-31",
+      "endDate": "2008-12-31",
+      "gpa": "",
+      "courses": [
+        " - Computer Programming Introd.",
+        " - Computer Hardware",
+        " - Microprocessor Architecture and Programming"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Django",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AWS Deployment",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AngularJS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Redux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS3",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SASS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bootstrap",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "Machine Learning Image Colorization",
+      "description": "",
+      "highlights": [
+        "Convoluted Neural Network that learned how to colorize grayscale images. I directly worked on designing and implementing the convolution layers necesary to achieve this. One nice idea was to include a predefined layer for object detection.",
+        "Sped up results by including 'imagenet' pretrained object detection layer into our custom designed layers.",
+        "Leveraged the power of various Python libraries for manipulation and preparation of images. For example, matplotlib, keras.preprocessing.image, skimage.color.",
+        "As part of development, created tools and functions to easily convert and compare images from grayscale to colored images. This would speed up the learning process and shorten the training time.",
+        "One example of our results can be seen here: https://github.com/marioscience/image-colorizer-notebook/blob/master/download%20(2).png.",
+        "The entire process was documented in the mock research paper: https://github.com/marioscience/image-colorizer-notebook/blob/master/Research%20Paper.pdf"
+      ],
+      "keywords": [
+        "Keras", "TensorFlow", "Python", "Docker", "Jupyter Notebook", "pandas", "matplotlib", "numpy"
+      ],
+      "startDate": "2020-07-15",
+      "endDate": "2020-07-18",
+      "url": "https://github.com/marioscience/image-colorizer-notebook/blob/master/image-colorization.py.ipynb",
+      "roles": [
+        "Software Developer", "Researcher"
+      ],
+      "entity": "Machine Learning class at MIU",
+      "type": "application"
+    },
+    {
+      "name": "Movie Recommender",
+      "description": "",
+      "highlights": [
+        "Using cosine similarity matrix (same algorithm used by Netflix) movies are recommended to users depending on their taste or current trends.",
+        "Consumed OMDB API, which is similar to IMDb. This allowed for movie posters and user ratings to be used in data analysis.",
+        "Leveraged the power of Python data science libraries such as sklearn, surprise, and pandas.",
+        "Created entire application architecture with data, services, API and UI layers.",
+        "Designed and implemented Docker and docker-compose configuration for quick containerized deployment.",
+        "Created UI using React.js reusable components. Responsive layout was created using compact and elegant CSS3 flex layout."
+      ],
+      "keywords": [
+        "Python", "React.js", "Javascript", "Docker", "pandas", "sklearn", "numpy", "HTML5/CSS3"
+      ],
+      "startDate": "2020-06-15",
+      "endDate": "2016-07-24",
+      "url": "https://github.com/marioscience/movie-recommender/",
+      "roles": [
+        "Software Architect", "Software Developer"
+      ],
+      "entity": "Machine Learning class at MIU",
+      "type": "application"
+    },
+    {
+      "name": "Spark/Scala Distributed Data Statistics",
+      "description": "",
+      "highlights": [
+        "Using Spark and Scala, created a distributed system to compute bootstrapping statistics and distributed aggregation of data.",
+        "Utilized Scala for creating the code that would run in multiple instances of Apache Spark. ",
+        "Created distributed algorithms to deal with data that is split in multiple storage locations.",
+        "Combined power of Scala, Spark and server configurations to process large input files"
+      ],
+      "keywords": [
+        "Scala", "Spark"
+      ],
+      "startDate": "2016-05-18",
+      "endDate": "2016-06-12",
+      "url": "https://github.com/marioscience/spark-final-project",
+      "roles": [
+        "Distributed Systems Architect", "Software Developer"
+      ],
+      "entity": "Data Science classes at MIU",
+      "type": "application"
+    },
+    {
+      "name": "Hadoop Distributed System in Docker Containers",
+      "description": "",
+      "highlights": [
+        "Hadoop Distributed System running distributed map reduce algorithms. As part of this project, Docker configuration and supporting bash scripts were created. The programming language used is Java.",
+        "Created Hadoop configurations for each type of server in a typical hadoop cluster. ",
+        "Created Hadoop MapReduce algorithm in Java.",
+        "Containerized application by writing Docker configuration."
+      ],
+      "keywords": [
+        "Hadoop", "MapReduce", "Java", "Docker", "BASH Scripting"
+      ],
+      "startDate": "2020-06-05",
+      "endDate": "2020-06-25",
+      "url": "https://github.com/marioscience/docker-hadoop-wordcount",
+      "roles": [
+        "Web Developer", "Distributed Systems Engineer"
+      ],
+      "entity": "Data Science classes at MIU",
+      "type": "application"
+    },
+    {
+      "name": "CRM Module integrated to main ERP System",
+      "description": "",
+      "highlights": [
+        "Worked on implementation and deployment of features for a CRM module that integrated with Sage ERP System",
+        "Developed features at all levels of the web application stack",
+        "Participated in all stages of the software development lifecycle",
+        "Worked in advanced architecture that included technologies such as Node.js, Express.js, PM2, MySQL, Angular, Bootstrap, ASP.NET, C#, SQL Server"
+      ],
+      "keywords": [
+        "Node.js", "Express.js", "PM2", "MySQL", "Angular", "Bootstrap", "ASP.NET", "C#", "SQL Server", "Javascript"
+      ],
+      "startDate": "2018-10-01",
+      "endDate": "2019-12-31",
+      "url": "",
+      "roles": [
+        "Software Developer", "Application Architect"
+      ],
+      "entity": "Spirit Technologies SRL",
+      "type": "application"
+    },
+    {
+      "name": "Homegenius",
+      "description": "",
+      "highlights": [
+        "Homegenius is a marketplace for real estate properties. I worked on creating a complete framework that automated many of the development tasks and put me and my team ahead of schedule for many sprints.",
+        "Developed framework for development of features that automated many development tasks such as production and development builds, dependency management, media asset management, code linting, automated testing, reusable UI components, and advanced software architecture.",
+        "Designed and implemented main front end feature which consisted of a Google Map V3 with many features on top of it. These included filtering of properties by desired criteria, showing colors in markers depending on price, custom selection of area, neighboorhood delineations, and pulling Google information about amenities nearby.",
+        "Built many listing and detail pages with advanced functionality",
+        "Designed and integrated many REST APIs"
+      ],
+      "keywords": [
+        "Angular.js", "JavaScript", "TypeScript", "Gulp", "Bower", "NPM", "Bootstrap", "SASS"
+      ],
+      "startDate": "2015-08-01",
+      "endDate": "2017-03-22",
+      "url": "https://homegenius.com/public/home",
+      "roles": [
+        "Team lead", "Web Developer"
+      ],
+      "entity": "Red Bell Real Estate",
+      "type": "application"
+    },
+    {
+      "name": "iUtah Main Website",
+      "description": "", 
+      "highlights": [
+        "[Github: https://github.com/UCHIC/iUTAHData] \nMain website of iUtah project. An ambitious research project to collect and analyze environmental hydrologic data. The website has a D3.js dashboard that displays data processed in the backend. This data comes from sensors deployed in the field measuring a wide range of variables.",
+        "Built from simple requirements all the way to deployment and maintenance.",
+        "Created my first website by leveraging the power of Django.",
+        "Included an admin site where users could add and modify content in different pages."
+      ],
+      "keywords": [
+        "Pyhton", "Django", "JavaScript", "D3.js", "jQuery", "AJAX", "Bootstrap", "HTML5/CSS3"
+      ],
+      "startDate": "2014-01-01",
+      "endDate": "2015-08-31",
+      "url": "http://data.iutahepscor.org/mdf/river_info/iUTAH_RedButte_OD/RB_ARBR_C/",
+      "roles": [
+        "Software Developer", "Software Architect"
+      ],
+      "entity": "Utah Water Research Laboratory",
+      "type": "application"
+    },
+    {
+      "name": "Asteroids Game",
+      "description": "",
+      "highlights": [
+        "[Github: https://github.com/marioscience/asteroid_exploder] \nAsteroid shooting game. Using game design principles and techniques, NodeJS, HTML5 Canvas, JavaScript, etc. Deployed using Heroku.",
+        "Built from simple requirements all the way to deployment and maintenance.",
+        "Created my first website by leveraging the power of Django.",
+        "Included an admin site where users could add and modify content in different pages."
+      ],
+      "keywords": [
+        "Pyhton", "Django", "JavaScript", "D3.js", "jQuery", "AJAX", "Bootstrap", "HTML5/CSS3"
+      ],
+      "startDate": "2014-01-01",
+      "endDate": "2015-08-31",
+      "url": "https://arcane-badlands-3605.herokuapp.com/",
+      "roles": [
+        "Software Developer", "Software Architect"
+      ],
+      "entity": "Game Development class @ USU",
+      "type": "application"
+    },
+    {
+      "name": "Inventory Management System",
+      "description": "",
+      "highlights": [
+        "The project is internal to the Utah Water Research Laboratory but you can see what the website looks like here: http://data.iutahepscor.org/mdf/static/mdfserver/images/development/equipment_management.png",
+        "Inventory Management System to keep track of sensor equipment utilized for collecting environmental hydrologic data at sites for research. This system kept track of all equipment, wethere it was deployed, where it was deployed, maitenance, and any other activity related to them.",
+        "Worked on entire level of the software development lifecycle. From requirements to deployment and maintenance.",
+        "Combined Python, Django, jQuery, and Bootstrap to create modern web application",
+        "Wrote DDL and DML advanced SQL queries to design and create schemas or complex data retrieval."
+      ],
+      "keywords": [
+        "Python", "Django", "JavaScript", "jQuery", "Bootstrap", "HTML5/CSS3"
+      ],
+      "startDate": "2015-01-28",
+      "endDate": "2015-08-21",
+      "url": "https://github.com/UCHIC/ODM2Sensor",
+      "roles": [
+        "Team lead", "Web Developer", "System Architect"
+      ],
+      "entity": "Utah Water Research Laboratory",
+      "type": "application"
+    },
+    {
+      "name": "Internal Wiki - Wikimedia Deployment",
+      "description": "", 
+      "highlights": [
+        "Implemented open source Wikimedia for internal wiki for employees at the USU Campus Store.",
+        "Understanding of open source and identification of solution to common problem in my work environment.",
+        "Full deployment and maintenance to local Linux server."
+      ],
+      "keywords": [
+        "Open Source", "Wikimedia", "Deployment"
+      ],
+      "startDate": "2013-02-24",
+      "endDate": "2013-03-15",
+      "url": "",
+      "roles": [
+        "Implementer", "IT Admin"
+      ],
+      "entity": "USU Campus Store",
+      "type": "deployment"
+    },
+    {
+      "name": "Deployment of Movement Detection Camera System",
+      "description": "",
+      "highlights": [
+        "Implemented cameras that detected movement and recorded video utilizing low disk space.",
+        "Created camera system that was robust and deployed to local Linux servers.",
+        "Utilization of open source technologies.",
+        "Engineered scripts to support desired behavior."
+      ],
+      "keywords": [
+        "Camera System", "Movement Detection", "Security"
+      ],
+      "startDate": "2013-12-03",
+      "endDate": "2016-12-03",
+      "url": "",
+      "roles": [
+        "Implementer", "IT Admin"
+      ],
+      "entity": "USU Campus Store",
+      "type": "deployment"
+    }    
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Brock Norton",
+      "reference": "Mario has been an awesome coworker.  He's not only been extremely helpful to me, but regularly puts in extra time in the evenings and on weekends to make sure projects are being done on time and that assets are produced in requested sprint cycles.  \r\n\r\nHe has a very wide knowledge of all things web development, but more importantly knows what will be best suited to complete any specific projeict and do it in a timely manner.\r\n\r\nHe's got a great sense of humor and doesn't take himself too serious, which is great especially in an environment that may be stressful with deadlines fast approaching.  He's also very good at testing new technologies on a projects to make things faster, compact, and efficient.  \r\n\r\nThis is one of the easier recommendations I've written as Mario and his skillset and experience speak for themselves and I'd happily recommend him for promotion from within and definitely as a valued team member should anybody be lucky enough to try and steal him away in the future."
+    }
+  ]
+}
