@@ -72,7 +72,7 @@
       "website": "https://usucampusstore.com/"
     },
     {
-      "company": "Computer Maitenance Service",
+      "company": "CMS - Computer Maintenance Service",
       "endDate": "2011-08-31",
       "highlights": [],
       "position": "Computer Technician",
@@ -285,7 +285,7 @@
         "Python", "React.js", "Javascript", "Docker", "pandas", "sklearn", "numpy", "HTML5/CSS3"
       ],
       "startDate": "2020-06-15",
-      "endDate": "2016-07-24",
+      "endDate": "2020-07-24",
       "url": "https://github.com/marioscience/movie-recommender/",
       "roles": [
         "Software Architect", "Software Developer"
@@ -305,8 +305,8 @@
       "keywords": [
         "Scala", "Spark"
       ],
-      "startDate": "2016-05-18",
-      "endDate": "2016-06-12",
+      "startDate": "2020-05-18",
+      "endDate": "2020-06-12",
       "url": "https://github.com/marioscience/spark-final-project",
       "roles": [
         "Distributed Systems Architect", "Software Developer"
@@ -425,7 +425,7 @@
       "description": "",
       "highlights": [
         "The project is internal to the Utah Water Research Laboratory but you can see what the website looks like here: http://data.iutahepscor.org/mdf/static/mdfserver/images/development/equipment_management.png",
-        "Inventory Management System to keep track of sensor equipment utilized for collecting environmental hydrologic data at sites for research. This system kept track of all equipment, wethere it was deployed, where it was deployed, maitenance, and any other activity related to them.",
+        "Inventory Management System to keep track of sensor equipment utilized for collecting environmental hydrologic data at sites for research. This system kept track of all equipment, wethere it was deployed, where it was deployed, maintenance, and any other activity related to them.",
         "Worked on entire level of the software development lifecycle. From requirements to deployment and maintenance.",
         "Combined Python, Django, jQuery, and Bootstrap to create modern web application",
         "Wrote DDL and DML advanced SQL queries to design and create schemas or complex data retrieval."
