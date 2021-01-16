@@ -22,4 +22,4 @@ For more info on these changes check out the commit history for the ```index.htm
 
 ### Hosting
 
-At the moment https://mariomatos.dev/ is a domain name that directly redirects to https://marioscience.github.io/.
+At the moment https://mariomatos.dev/ is a domain name that directly redirects to https://marioscience.github.io/. This is a DNS redirect with masking.
