@@ -17,6 +17,7 @@ Here I want to keep track of manual changes that I have done to the index.html. 
 - Removed spacing in list items for work experience. Just set their margin to zero for the ```<p>``` element in the CSS.
 - Added Google Analytics in ```<head>```, for details go to Google Analytics dashboard.
 - Some hyphens for the dates have space in their right side and not on the left, i.e. Nov 2016- Dec 2020 and it looks a bit ugly. So I added spaces for them i.e. Nov 2016 - Dec 2020.
+- Set margin-top to 0 of ul.keywords, ul.courses
   
 For more info on these changes check out the commit history for the ```index.html``` file. 
 

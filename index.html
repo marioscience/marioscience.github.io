@@ -398,7 +398,12 @@ h2.section-title {
 
 ul.keywords,
 ul.courses {
-    margin-top: .5em;
+   /* margin-top: .5em; original */
+   margin-top: 0;
+}
+
+.item ul.highlights {
+    margin-top: 0;
 }
 
 ul.keywords li,
@@ -422,6 +427,11 @@ ul.courses li:hover {
 
 .item {
     padding: .5em 0;
+}
+
+#projects .item {
+    padding: 0;
+    padding-bottom: 0.5em;
 }
 
 .gpa {
@@ -892,11 +902,6 @@ ul.courses li:hover {
     			 		</div>
     		<div class="item">
     			<h3 class="name">
-    				Linux
-    			</h3>
-    			 		</div>
-    		<div class="item">
-    			<h3 class="name">
     				Git
     			</h3>
     			 		</div>
@@ -1133,7 +1138,7 @@ ul.courses li:hover {
           </ul>
           <div class="item">
             <ul class="highlights">
-                <li><p>Convoluted Neural Network that learned how to colorize grayscale images. I directly worked on designing and implementing the convolution layers necesary to achieve this. One nice idea was to include a predefined layer for object detection.</p></li>
+                <li><p>Convolutional Neural Network that learned how to colorize grayscale images. I directly worked on designing and implementing the convolution layers necesary to achieve this. One nice idea was to include a predefined layer for object detection.</p></li>
                 <li><p>Sped up results by including 'imagenet' pretrained object detection layer into our custom designed layers.</p></li>
                 <li><p>Leveraged the power of various Python libraries for manipulation and preparation of images. For example, matplotlib, keras.preprocessing.image, skimage.color.</p></li>
                 <li><p>As part of development, created tools and functions to easily convert and compare images from grayscale to colored images. This would speed up the learning process and shorten the training time.</p></li>
@@ -1552,7 +1557,7 @@ ul.courses li:hover {
           <div class="item">
             <div class="level fluency native speaker">
               <em>Native speaker</em>
-              <div class="bar"></div>
+              <!-- <div class="bar"></div> -->
             </div>
           </div>
         </div>
@@ -1563,7 +1568,7 @@ ul.courses li:hover {
           <div class="item">
             <div class="level fluency native speaker">
               <em>Native speaker</em>
-              <div class="bar"></div>
+              <!-- <div class="bar"></div> -->
             </div>
           </div>
         </div>
