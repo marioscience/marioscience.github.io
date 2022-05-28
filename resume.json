@@ -28,6 +28,15 @@
   },
   "work": [
     {
+      "company": "IXIS Digital",
+      "endDate": "2021-12-30",
+      "highlights": [],
+      "position": "Software Engineer",
+      "startDate": "2021-02-26",
+      "summary": "- Analysis, design and implementation of data\nscience related features in the main platform. \n- Prescription and implementation of improved branching strategy in Git.\n- Development and refactoring of REST API services using Python/Flask. \n- Support in hiring and training efforts. \n- Refactored main platform to be more akin to a modern analytics system. Developed data science models and implemented GraphQL. \n- Collaborated as back end with the front end team to bring features to life. \n- Improved performance and maintainability of several internal projects.\n- Created Docker configurations for deployment.",
+      "website": "https://ixisdigital.com/"
+    },
+    {
       "company": "Spirit Technologies",
       "endDate": "2019-12-31",
       "highlights": [],
