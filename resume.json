@@ -6,7 +6,7 @@
     "name": "Mario Matos",
     "label": "Software Developer",
     "picture": "https://i.imgur.com/ted5iuI.png",
-    "summary": "Skilled Full Stack Software Engineer with more than 6 years of experience creating high-quality applications and features to address the diverse needs of users. Possesses an extensive list of successful projects across diverse business, research, and academic environments. ",
+    "summary": "Skilled Full Stack Software Engineer with more than 6 years of experience creating high-quality applications and features to address the diverse needs of users. Possesses an extensive list of successful projects across diverse fields in the business, research, and academic areas. ",
     "email": "mariomatos889@gmail.com",
     "phone": "(641) 451-9044",
     "location": {
@@ -27,22 +27,22 @@
     ]
   },
   "work": [
-  {
+    {
       "company": "Freelance Work",
-      "endDate": "Prresent",
+      "endDate": "",
       "highlights": [],
       "position": "Freelance Software Developer",
       "startDate": "2024-06-01",
-      "summary:": "- Provided independent software development and technical consulting services to diverse clients, delivering tailored solutions for their specific needs. \n- Managed end-to-end project lifecycles, from requirements gathering and solution design to implementation, testing, and deployment using Python, Postgres and React. \n- Provided mentorships to students where I guided them through learning software engineering.",
+      "summary": "- Provided independent software development and technical consulting services to diverse clients, delivering tailored solutions for their specific needs. \n- Managed end-to-end project lifecycles, from requirements gathering and solution design to implementation, testing, and deployment using Python, Postgres and React. \n- Provided mentorship to students where I guided them through learning software engineering.",
       "website": ""
-  },
-  {
+    },
+    {
       "company": "Smart Warehousing",
       "endDate": "2023-05-20",
       "highlights": [],
       "position": "Backend Software Engineer",
       "startDate": "2022-06-15",
-      "summary:": "- Developed and implemented three key features for the warehouse management system using Python and Flask, resulting in a 10% improvement in operational efficiency. \n- Wrote scalable and maintainable code for business logic utilized in daily warehousing operations. \n- Utilized Docker for containerization and PostgreSQL for data management. \n- Contributed to CI/CD pipelines using Shell Scripting and Git.\n",
+      "summary": "- Developed and implemented three key features for the warehouse management system using Python and Flask, resulting in a 10% improvement in operational efficiency. \n- Wrote scalable and maintainable code for business logic utilized in daily warehousing operations. \n- Utilized Docker for containerization and PostgreSQL for data management. \n- Contributed to CI/CD pipelines using Shell Scripting and Git.",
       "website": "https://www.smartwarehousing.com/"
     },
     {
@@ -163,7 +163,7 @@
       "endDate": "2008-12-31",
       "gpa": "",
       "courses": [
-        " - Computer Programming Introd.",
+        " - Computer Programming Introduction",
         " - Computer Hardware",
         " - Microprocessor Architecture and Programming"
       ]
@@ -173,7 +173,7 @@
   "publications": [],
   "skills": [
     {
-      "name": "Backend Software Engineering",
+      "name": "Backend Engineering",
       "level": "Master",
       "keywords": [
         "Python",
@@ -200,20 +200,20 @@
       "name": "Tools",
       "level": "Master",
       "keywords": [
-        "JavaScript",
-        "React/Redux",
-        "HTML5",
-        "Bootstrap, SASS/CSS3"
+        "Git",
+        "Shell Scripting",
+        "JetBrains IDE",
+        "Jira"
       ]
    },
    {
       "name": "Frontend Development",
       "level": "Master",
       "keywords": [
-        "Git",
-        "Shell Scripting",
-        "Jira",
-        "JetBrains IDE"
+        "JavaScript",
+        "React/Redux",
+        "Bootstrap, SASS/CSS3",
+        "HTML5"
       ]
     }
   ],
@@ -222,7 +222,7 @@
       "name": "Machine Learning Image Colorization",
       "description": "",
       "highlights": [
-        "Convoluted Neural Network that learned how to colorize grayscale images. I directly worked on designing and implementing the convolution layers necesary to achieve this. One nice idea was to include a predefined layer for object detection.",
+        "Convoluted Neural Network that learned how to colorize grayscale images. I directly worked on designing and implementing the convolution layers necessary to achieve this. One nice idea was to include a predefined layer for object detection.",
         "Sped up results by including 'imagenet' pretrained object detection layer into our custom designed layers.",
         "Leveraged the power of various Python libraries for manipulation and preparation of images. For example, matplotlib, keras.preprocessing.image, skimage.color.",
         "As part of development, created tools and functions to easily convert and compare images from grayscale to colored images. This would speed up the learning process and shorten the training time.",
@@ -333,7 +333,7 @@
       "highlights": [
         "Homegenius is a marketplace for real estate properties. I worked on creating a complete framework that automated many of the development tasks and put me and my team ahead of schedule for many sprints.",
         "Developed framework for development of features that automated many development tasks such as production and development builds, dependency management, media asset management, code linting, automated testing, reusable UI components, and advanced software architecture.",
-        "Designed and implemented main front end feature which consisted of a Google Map V3 with many features on top of it. These included filtering of properties by desired criteria, showing colors in markers depending on price, custom selection of area, neighboorhood delineations, and pulling Google information about amenities nearby.",
+        "Designed and implemented main front end feature which consisted of a Google Map V3 with many features on top of it. These included filtering of properties by desired criteria, showing colors in markers depending on price, custom selection of area, neighborhood delineations, and pulling Google information about amenities nearby.",
         "Built many listing and detail pages with advanced functionality",
         "Designed and integrated many REST APIs"
       ],
@@ -374,7 +374,7 @@
       "name": "Asteroids Game",
       "description": "",
       "highlights": [
-        "[Github: https://github.com/marioscience/asteroid_exploder] \nAsteroid shooting game. Using game design principles and techniques, NodeJS, HTML5 Canvas, JavaScript, etc. Deployed using Heroku.",
+        "[Github: https://github.com/marioscience/asteroid_exploder] \nAsteroid shooting game. Using game design principles and techniques, Node.js, HTML5 Canvas, JavaScript, etc. Deployed using Heroku.",
         "Built from simple requirements all the way to deployment and maintenance.",
         "Created my first website by leveraging the power of Django.",
         "Included an admin site where users could add and modify content in different pages."
@@ -395,8 +395,8 @@
       "name": "Inventory Management System",
       "description": "",
       "highlights": [
-        "The project is internal to the Utah Water Research Laboratory but you can see what the website looks like here: http://data.iutahepscor.org/mdf/static/mdfserver/images/development/equipment_management.png",
-        "Inventory Management System to keep track of sensor equipment utilized for collecting environmental hydrologic data at sites for research. This system kept track of all equipment, wethere it was deployed, where it was deployed, maintenance, and any other activity related to them.",
+        "The project is internal to the Utah Water Research Laboratory.",
+        "Inventory Management System to keep track of sensor equipment utilized for collecting environmental hydrologic data at sites for research. This system kept track of all equipment, whether it was deployed, where it was deployed, maintenance, and any other activity related to them.",
         "Worked on entire level of the software development lifecycle. From requirements to deployment and maintenance.",
         "Combined Python, Django, jQuery, and Bootstrap to create modern web application",
         "Wrote DDL and DML advanced SQL queries to design and create schemas or complex data retrieval."
@@ -469,7 +469,7 @@
   "references": [
     {
       "name": "Brock Norton",
-      "reference": "Mario has been an awesome coworker.  He's not only been extremely helpful to me, but regularly puts in extra time in the evenings and on weekends to make sure projects are being done on time and that assets are produced in requested sprint cycles.  \r\n\r\nHe has a very wide knowledge of all things web development, but more importantly knows what will be best suited to complete any specific projeict and do it in a timely manner.\r\n\r\nHe's got a great sense of humor and doesn't take himself too serious, which is great especially in an environment that may be stressful with deadlines fast approaching.  He's also very good at testing new technologies on a projects to make things faster, compact, and efficient.  \r\n\r\nThis is one of the easier recommendations I've written as Mario and his skillset and experience speak for themselves and I'd happily recommend him for promotion from within and definitely as a valued team member should anybody be lucky enough to try and steal him away in the future."
+      "reference": "Mario has been an awesome coworker.  He's not only been extremely helpful to me, but regularly puts in extra time in the evenings and on weekends to make sure projects are being done on time and that assets are produced in requested sprint cycles.  \r\n\r\nHe has a very wide knowledge of all things web development, but more importantly knows what will be best suited to complete any specific project and do it in a timely manner.\r\n\r\nHe's got a great sense of humor and doesn't take himself too serious, which is great especially in an environment that may be stressful with deadlines fast approaching.  He's also very good at testing new technologies on a projects to make things faster, compact, and efficient.  \r\n\r\nThis is one of the easier recommendations I've written as Mario and his skill set and experience speak for themselves and I'd happily recommend him for promotion from within and definitely as a valued team member should anybody be lucky enough to try and steal him away in the future."
     }
   ]
 }
