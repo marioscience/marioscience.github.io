@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Mario Matos</title>
+      <meta name="description" content="Skilled Full Stack Software Engineer with more than 4 years of experience creating high-quality applications and features to address the diverse needs of users. Possesses an extensive list of successful projects across diverse business, research, and academic environments.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
+    <style>:root {
+  color-scheme: light dark;
+
+  --color-background: #ffffff; /* White */
+  --color-muted: #f3f4f5; /* Light Gray 200 */
+  --color-primary: #191e23; /* Dark Gray 900 */
+  --color-secondary: #6c7781; /* Dark Gray 300 */
+  --color-accent: #ffb900; /* Accent Yellow */
+  --color-link: #46b450; /* Accent Green */
+
+  --scale-ratio: 1.25;
+  --scale0: 1rem;
+  --scale1: calc(var(--scale0) * var(--scale-ratio));
+  --scale2: calc(var(--scale1) * var(--scale-ratio));
+  --scale3: calc(var(--scale2) * var(--scale-ratio));
+  --scale4: calc(var(--scale3) * var(--scale-ratio));
+  --scale5: calc(var(--scale4) * var(--scale-ratio));
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #191e23; /* Dark Gray 900 */
+    --color-muted: #23282d; /* Dark Gray 800 */
+    --color-primary: #fbfbfc; /* Light Gray 100 */
+    --color-secondary: #ccd0d4; /* Light Gray 700 */
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-primary);
+  display: grid;
+  font: 1em/1.5 Lato, sans-serif;
+  gap: 2em;
+  grid-template-columns:
+    [full-start]
+    1fr
+    [main-start side-start]
+    minmax(min-content, 12em)
+    [side-end content-start]
+    minmax(min-content, 36em)
+    [main-end content-end]
+    1fr
+    [full-end];
+  grid-template-rows: auto [content] 0;
+  margin-bottom: 4em;
+}
+
+body::before {
+  content: '';
+  grid-column: full;
+  grid-row: content;
+}
+
+ol,
+ul {
+  padding-left: 1em;
+}
+
+:not(.icon-list, .tag-list) > li + li {
+  margin-top: 0.4em;
+}
+
+li::marker,
+.network {
+  color: var(--color-secondary);
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:focus,
+a:hover {
+  color: var(--color-accent);
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--scale5);
+}
+
+h2 {
+  color: var(--color-secondary);
+  font-size: var(--scale4);
+}
+
+h3 {
+  color: var(--color-accent);
+  font-size: var(--scale3);
+  grid-column: side;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: var(--scale2);
+}
+
+h5 {
+  font-size: var(--scale1);
+}
+
+h6 {
+  font-size: var(--scale0);
+}
+
+blockquote {
+  border-left: 0.2em solid var(--color-muted);
+  padding-left: 1em;
+}
+
+cite {
+  color: var(--color-secondary);
+  font-style: inherit;
+}
+
+cite::before {
+  content: '— ';
+}
+
+svg {
+  margin-right: 0.2em;
+  vertical-align: -0.2em;
+}
+
+.masthead {
+  background: var(--color-muted);
+  display: inherit;
+  gap: inherit;
+  grid-column: full;
+  grid-template-columns: inherit;
+  padding: 4em 0;
+  text-align: center;
+}
+
+.masthead > *,
+section {
+  grid-column: main;
+}
+
+.masthead > img {
+  border-radius: 50%;
+  margin: 0 auto;
+  max-width: 12em;
+}
+
+article > * + *,
+blockquote > * + * {
+  margin-top: 0.6em;
+}
+
+.meta {
+  color: var(--color-secondary);
+}
+
+.stack {
+  display: grid;
+  gap: 1.5em;
+}
+
+.icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em 1em;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.grid-list {
+  display: grid;
+  gap: 1em;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  list-style: none;
+  padding: 0;
+}
+
+.tag-list > li {
+  background: var(--color-muted);
+  border-radius: 0.2em;
+  padding: 0.2em 0.6em;
+}
+
+.bullet-item:not(:first-child)::before {
+  content: '· ';
+  margin: 0 0.2em;
+}
+
+@media print, (min-width: 48em) {
+  h3 {
+    text-align: right;
+    margin-bottom: inherit;
+  }
+
+  .masthead {
+    text-align: inherit;
+  }
+
+  .masthead > *,
+  section {
+    grid-column: content;
+  }
+
+  .masthead img {
+    grid-column: side;
+    grid-row: span 2;
+    max-width: 100%;
+  }
+
+  section {
+    display: contents;
+  }
+
+  .icon-list {
+    flex-direction: column;
+  }
+
+  .grid-list {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(calc((100% - 1em) / 2), 1fr)
+    );
+  }
+}
+</style>
+  </head>
+  <body>
+      <header class="masthead">
+        <div>
+            <h1>Mario Matos</h1>
+            <h2>Software Developer</h2>
+        </div>
+          <article>
+            <p>Skilled Full Stack Software Engineer with more than 4 years of experience creating high-quality applications and features to address the diverse needs of users. Possesses an extensive list of successful projects across diverse business, research, and academic environments.</p>
+          </article>
+        <ul class="icon-list">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:mariomatos889@gmail.com">mariomatos889@gmail.com</a>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a href="tel:6414519044">(641) 451-9044</a>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                  <a href="https://www.linkedin.com/in/mariomatos1/">Mario Matos</a>
+                <span class="network">(LinkedIn)</span>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  <a href="https://github.com/marioscience">marioscience</a>
+                <span class="network">(Github)</span>
+            </li>
+        </ul>
+      </header>
+
+      <section id="work">
+        <h3>Work</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <h4>Software Engineer</h4>
+                <div class="meta">
+                  <div>
+                    <strong></strong>
+                  </div>
+                  <div>
+                    <time datetime="2021-02-26">Feb 2021</time> –
+                    <time datetime="2021-12-30">Dec 2021</time>
+                  </div>
+                </div>
+              </header>
+                <ul>
+    <li>Analysis, design and implementation of data
+    science related features in the main platform.</li>
+    <li>Prescription and implementation of improved branching strategy in Git.</li>
+    <li>Development and refactoring of REST API services using Python/Flask.</li>
+    <li>Support in hiring and training efforts.</li>
+    <li>Refactored main platform to be more akin to a modern analytics system. Developed data science models and implemented GraphQL.</li>
+    <li>Collaborated as back end with the front end team to bring features to life.</li>
+    <li>Improved performance and maintainability of several internal projects.</li>
+    <li>Created Docker configurations for deployment.</li>
+    </ul>
+            </article>
+            <article>
+              <header>
+                <h4>Software Engineer</h4>
+                <div class="meta">
+                  <div>
+                    <strong></strong>
+                  </div>
+                  <div>
+                    <time datetime="2018-11-30">Nov 2018</time> –
+                    <time datetime="2019-12-31">Dec 2019</time>
+                  </div>
+                </div>
+              </header>
+                <ul>
+    <li>Development of different features for internal use CRM module using central ERP system.</li>
+    <li>Node.js implementation of services and client facing API.</li>
+    <li>Data handling, RESTful API design and implementation using Express.js.</li>
+    <li>MS SQL and MySQL server database systems. DML and DDL querying of data.</li>
+    <li>Angular.js front end application. Bootstrap, Webpack and other supporting libraries used.</li>
+    <li>Implementation of ASP.NET features and services.</li>
+    </ul>
+            </article>
+            <article>
+              <header>
+                <h4>Software Engineer</h4>
+                <div class="meta">
+                  <div>
+                    <strong></strong>
+                  </div>
+                  <div>
+                    <time datetime="2018-04-30">Apr 2018</time> –
+                    <time datetime="2018-09-30">Sep 2018</time>
+                  </div>
+                </div>
+              </header>
+                <ul>
+    <li>Development using ASP.NET in back end using C#.</li>
+    <li>Microsoft SQL DBMS System used. Writing of different DML and DDL queries.</li>
+    <li>Front End development using Angular (latest version).</li>
+    <li>Participated in standard stages of Agile Methodology.</li>
+    <li>Learned about Leasing and Taxed Fixed Assets Management Industries and other financial concepts.</li>
+    </ul>
+            </article>
+            <article>
+              <header>
+                <h4>Web Developer</h4>
+                <div class="meta">
+                  <div>
+                    <strong></strong>
+                  </div>
+                  <div>
+                    <time datetime="2015-08-31">Aug 2015</time> –
+                    <time datetime="2017-02-28">Feb 2017</time>
+                  </div>
+                </div>
+              </header>
+                <ul>
+    <li>Development and maintenance of front end web applications using different technologies. - Implemented different technologies: AngularJS, TypeScript, JavaScript, Gulp, Bower/NPM, Sass, Twitter Bootstrap, Material Design, TFS Version control, Visual Studio, among other technologies.</li>
+    <li>Projects consisted in fixing something in the front-end side of an existing app or taking design mockups for new applications and working closely with designers and back-end devs to bring apps to life.</li>
+    <li>Found libraries to use as tools that solved a specific need in an app.</li>
+    <li>Learned many technologies that I needed for said projects. Also, studied how other applications worked to apply new techniques in my work.</li>
+    </ul>
+            </article>
+            <article>
+              <header>
+                <h4>Web Developer</h4>
+                <div class="meta">
+                  <div>
+                    <strong></strong>
+                  </div>
+                  <div>
+                    <time datetime="2014-01-31">Jan 2014</time> –
+                    <time datetime="2015-08-31">Aug 2015</time>
+                  </div>
+                </div>
+              </header>
+                <ul>
+    <li>Development of Web Applications built from given design specifications.</li>
+    <li>Wrote DDL and DML SQL queries to design database schemas or complex data retrieval.</li>
+    <li>Used database schemas that often worked with other applications.</li>
+    <li>Developed applications using Django framework and JavaScript.</li>
+    <li>Acquired experience in Git and deployment of applications.</li>
+    <li>Worked on all levels of the software development stack. Back end, front end and data store layer experience.</li>
+    <li>Knowledge of the entire software development lifecycle. Proficiency building applications from requirements to deployment.</li>
+    </ul>
+            </article>
+            <article>
+              <header>
+                <h4>IT Support</h4>
+                <div class="meta">
+                  <div>
+                    <strong></strong>
+                  </div>
+                  <div>
+                    <time datetime="2012-02-28">Feb 2012</time> –
+                    <time datetime="2014-01-31">Jan 2014</time>
+                  </div>
+                </div>
+              </header>
+            </article>
+            <article>
+              <header>
+                <h4>Computer Technician</h4>
+                <div class="meta">
+                  <div>
+                    <strong></strong>
+                  </div>
+                  <div>
+                    <time datetime="2010-03-31">Mar 2010</time> –
+                    <time datetime="2011-08-31">Aug 2011</time>
+                  </div>
+                </div>
+              </header>
+            </article>
+            <article>
+              <header>
+                <h4>Pagination</h4>
+                <div class="meta">
+                  <div>
+                    <strong></strong>
+                  </div>
+                  <div>
+                    <time datetime="2010-01-31">Jan 2010</time> –
+                    <time datetime="2010-03-31">Mar 2010</time>
+                  </div>
+                </div>
+              </header>
+            </article>
+            <article>
+              <header>
+                <h4>Electronics Technician</h4>
+                <div class="meta">
+                  <div>
+                    <strong></strong>
+                  </div>
+                  <div>
+                    <time datetime="2008-10-31">Oct 2008</time> –
+                    <time datetime="2010-01-31">Jan 2010</time>
+                  </div>
+                </div>
+              </header>
+            </article>
+        </div>
+      </section>
+      <section id="education">
+        <h3>Education</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <h4>Maharishi International University</h4>
+                <div class="meta">
+                    <strong>Computer Science</strong>
+                  <div>
+                    <time datetime="2020-12-31">Dec 2020</time> –
+                    <time datetime="2022-12-31">Dec 2022</time>
+                  </div>
+                </div>
+              </header>
+                <p>Master's degree</p>
+                <h5>Courses</h5>
+                <ul>
+                    <li><p>CS401 - Modern Programming Practices</p></li>
+                    <li><p>CS435 - Algorithm</p></li>
+                    <li><p>CS582 - Machine Learning</p></li>
+                    <li><p>CS488 - Big Data Analytics</p></li>
+                    <li><p>CS522 - Big Data</p></li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <h4>Utah State University</h4>
+                <div class="meta">
+                    <strong>Computer Science</strong>
+                  <div>
+                    <time datetime="2011-12-31">Dec 2011</time> –
+                    <time datetime="2015-12-31">Dec 2015</time>
+                  </div>
+                </div>
+              </header>
+                <p>Bachelor's degree</p>
+                <h5>Courses</h5>
+                <ul>
+                    <li><p>CS3100 - Operating Systems And Concurrency</p></li>
+                    <li><p>CS4700 - Programming Languages</p></li>
+                    <li><p>CS3810 - Computer Architecture</p></li>
+                    <li><p>CS5410 - Game Development</p></li>
+                    <li><p>CS5050 - Advanced Algorithms</p></li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <h4>Instituto Politecnico Loyola</h4>
+                <div class="meta">
+                    <strong>Microcomputation</strong>
+                  <div>
+                    <time datetime="2005-12-31">Dec 2005</time> –
+                    <time datetime="2008-12-31">Dec 2008</time>
+                  </div>
+                </div>
+              </header>
+                <p>Digital Electronics Technician</p>
+                <h5>Courses</h5>
+                <ul>
+                    <li><ul>
+    <li>Computer Programming Introd.</li>
+    </ul></li>
+                    <li><ul>
+    <li>Computer Hardware</li>
+    </ul></li>
+                    <li><ul>
+    <li>Microprocessor Architecture and Programming</li>
+    </ul></li>
+                </ul>
+            </article>
+        </div>
+      </section>
+      <section id="projects">
+        <h3>Projects</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <h4><a href="https://github.com/marioscience/image-colorizer-notebook/blob/master/image-colorization.py.ipynb">Machine Learning Image Colorization</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>Software Developer and Researcher</strong>
+                      at <strong>Machine Learning class at MIU</strong>
+                  </div>
+                  <div>
+                    <time datetime="2020-07-15">Jul 2020</time> –
+                    <time datetime="2020-07-18">Jul 2020</time>
+                  </div>
+                </div>
+              </header>
+                
+                <ul>
+                    <li><p>Convoluted Neural Network that learned how to colorize grayscale images. I directly worked on designing and implementing the convolution layers necesary to achieve this. One nice idea was to include a predefined layer for object detection.</p></li>
+                    <li><p>Sped up results by including 'imagenet' pretrained object detection layer into our custom designed layers.</p></li>
+                    <li><p>Leveraged the power of various Python libraries for manipulation and preparation of images. For example, matplotlib, keras.preprocessing.image, skimage.color.</p></li>
+                    <li><p>As part of development, created tools and functions to easily convert and compare images from grayscale to colored images. This would speed up the learning process and shorten the training time.</p></li>
+                    <li><p>One example of our results can be seen here: https://github.com/marioscience/image-colorizer-notebook/blob/master/download%20(2).png.</p></li>
+                    <li><p>The entire process was documented in the mock research paper: https://github.com/marioscience/image-colorizer-notebook/blob/master/Research%20Paper.pdf</p></li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://github.com/marioscience/movie-recommender/">Movie Recommender</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>Software Architect and Software Developer</strong>
+                      at <strong>Machine Learning class at MIU</strong>
+                  </div>
+                  <div>
+                    <time datetime="2020-06-15">Jun 2020</time> –
+                    <time datetime="2020-07-24">Jul 2020</time>
+                  </div>
+                </div>
+              </header>
+                
+                <ul>
+                    <li><p>Using cosine similarity matrix (same algorithm used by Netflix) movies are recommended to users depending on their taste or current trends.</p></li>
+                    <li><p>Consumed OMDB API, which is similar to IMDb. This allowed for movie posters and user ratings to be used in data analysis.</p></li>
+                    <li><p>Leveraged the power of Python data science libraries such as sklearn, surprise, and pandas.</p></li>
+                    <li><p>Created entire application architecture with data, services, API and UI layers.</p></li>
+                    <li><p>Designed and implemented Docker and docker-compose configuration for quick containerized deployment.</p></li>
+                    <li><p>Created UI using React.js reusable components. Responsive layout was created using compact and elegant CSS3 flex layout.</p></li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://github.com/marioscience/spark-final-project">Spark/Scala Distributed Data Statistics</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>Distributed Systems Architect and Software Developer</strong>
+                      at <strong>Data Science classes at MIU</strong>
+                  </div>
+                  <div>
+                    <time datetime="2020-05-18">May 2020</time> –
+                    <time datetime="2020-06-12">Jun 2020</time>
+                  </div>
+                </div>
+              </header>
+                
+                <ul>
+                    <li><p>Using Spark and Scala, created a distributed system to compute bootstrapping statistics and distributed aggregation of data.</p></li>
+                    <li><p>Utilized Scala for creating the code that would run in multiple instances of Apache Spark.</p></li>
+                    <li><p>Created distributed algorithms to deal with data that is split in multiple storage locations.</p></li>
+                    <li><p>Combined power of Scala, Spark and server configurations to process large input files</p></li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://github.com/marioscience/docker-hadoop-wordcount">Hadoop Distributed System in Docker Containers</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>Web Developer and Distributed Systems Engineer</strong>
+                      at <strong>Data Science classes at MIU</strong>
+                  </div>
+                  <div>
+                    <time datetime="2020-06-05">Jun 2020</time> –
+                    <time datetime="2020-06-25">Jun 2020</time>
+                  </div>
+                </div>
+              </header>
+                
+                <ul>
+                    <li><p>Hadoop Distributed System running distributed map reduce algorithms. As part of this project, Docker configuration and supporting bash scripts were created. The programming language used is Java.</p></li>
+                    <li><p>Created Hadoop configurations for each type of server in a typical hadoop cluster.</p></li>
+                    <li><p>Created Hadoop MapReduce algorithm in Java.</p></li>
+                    <li><p>Containerized application by writing Docker configuration.</p></li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <h4>Integrated data ingestion and visualization platform for clients.</h4>
+                <div class="meta">
+                  <div>
+                      <strong>Software Developer and Application Architect</strong>
+                      at <strong>IXIS Digital</strong>
+                  </div>
+                  <div>
+                    <time datetime="2021-02-26">Feb 2021</time> –
+                    <time datetime="2021-12-30">Dec 2021</time>
+                  </div>
+                </div>
+              </header>
+                
+                <ul>
+                    <li><p>Analysis, design and implementation of data science related features in the main platform.</p></li>
+                    <li><p>Prescription and implementation of improved branching strategy in Git.</p></li>
+                    <li><p>Development and refactoring of REST API services using Python/Flask.</p></li>
+                    <li><p>Support in hiring and training efforts.</p></li>
+                    <li><p>Refactored main platform to be more akin to a modern analytics system.</p></li>
+                    <li><p>Developed data science models and implemented GraphQL.</p></li>
+                    <li><p>Collaborated as back end with the front end team to bring features to life.</p></li>
+                    <li><p>Improved performance and maintainability of several internal projects.</p></li>
+                    <li><p>Created Docker configurations for deployment.</p></li>
+                    <li><p>Worked in advanced architecture that included technologies such as Python, TypeScript, Flask, PostgreSQL, Docker, AWS (Lambda, s3, DynamoDB, Aurora/RDS, SQS), React, Shell Scripting, Postman, Atlassian Jira, and Git</p></li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <h4>CRM Module integrated to main ERP System</h4>
+                <div class="meta">
+                  <div>
+                      <strong>Software Developer and Application Architect</strong>
+                      at <strong>Spirit Technologies SRL</strong>
+                  </div>
+                  <div>
+                    <time datetime="2018-10-01">Sep 2018</time> –
+                    <time datetime="2019-12-31">Dec 2019</time>
+                  </div>
+                </div>
+              </header>
+
+                <ul>
+                    <li><p>Worked on implementation and deployment of features for a CRM module that integrated with Sage ERP System</p></li>
+                    <li><p>Developed features at all levels of the web application stack</p></li>
+                    <li><p>Participated in all stages of the software development lifecycle</p></li>
+                    <li><p>Worked in advanced architecture that included technologies such as Node.js, Express.js, PM2, MySQL, Angular, Bootstrap, ASP.NET, C#, SQL Server</p></li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://homegenius.com/public/home">Homegenius</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>Team lead and Web Developer</strong>
+                      at <strong>Red Bell Real Estate</strong>
+                  </div>
+                  <div>
+                    <time datetime="2015-08-01">Jul 2015</time> –
+                    <time datetime="2017-03-22">Mar 2017</time>
+                  </div>
+                </div>
+              </header>
+                
+                <ul>
+                    <li><p>Homegenius is a marketplace for real estate properties. I worked on creating a complete framework that automated many of the development tasks and put me and my team ahead of schedule for many sprints.</p></li>
+                    <li><p>Developed framework for development of features that automated many development tasks such as production and development builds, dependency management, media asset management, code linting, automated testing, reusable UI components, and advanced software architecture.</p></li>
+                    <li><p>Designed and implemented main front end feature which consisted of a Google Map V3 with many features on top of it. These included filtering of properties by desired criteria, showing colors in markers depending on price, custom selection of area, neighboorhood delineations, and pulling Google information about amenities nearby.</p></li>
+                    <li><p>Built many listing and detail pages with advanced functionality</p></li>
+                    <li><p>Designed and integrated many REST APIs</p></li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <h4><a href="http://data.iutahepscor.org/mdf/river_info/iUTAH_RedButte_OD/RB_ARBR_C/">iUtah Main Website</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>Software Developer and Software Architect</strong>
+                      at <strong>Utah Water Research Laboratory</strong>
+                  </div>
+                  <div>
+                    <time datetime="2014-01-01">Dec 2013</time> –
+                    <time datetime="2015-08-31">Aug 2015</time>
+                  </div>
+                </div>
+              </header>
+                
+                <ul>
+                    <li><p>[Github: https://github.com/UCHIC/iUTAHData]
+    Main website of iUtah project. An ambitious research project to collect and analyze environmental hydrologic data. The website has a D3.js dashboard that displays data processed in the backend. This data comes from sensors deployed in the field measuring a wide range of variables.</p></li>
+                    <li><p>Built from simple requirements all the way to deployment and maintenance.</p></li>
+                    <li><p>Created my first website by leveraging the power of Django.</p></li>
+                    <li><p>Included an admin site where users could add and modify content in different pages.</p></li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://arcane-badlands-3605.herokuapp.com/">Asteroids Game</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>Software Developer and Software Architect</strong>
+                      at <strong>Game Development class @ USU</strong>
+                  </div>
+                  <div>
+                    <time datetime="2014-01-01">Dec 2013</time> –
+                    <time datetime="2015-08-31">Aug 2015</time>
+                  </div>
+                </div>
+              </header>
+                
+                <ul>
+                    <li><p>[Github: https://github.com/marioscience/asteroid_exploder]
+    Asteroid shooting game. Using game design principles and techniques, NodeJS, HTML5 Canvas, JavaScript, etc. Deployed using Heroku.</p></li>
+                    <li><p>Built from simple requirements all the way to deployment and maintenance.</p></li>
+                    <li><p>Created my first website by leveraging the power of Django.</p></li>
+                    <li><p>Included an admin site where users could add and modify content in different pages.</p></li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://github.com/UCHIC/ODM2Sensor">Inventory Management System</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>Team lead, Web Developer, and System Architect</strong>
+                      at <strong>Utah Water Research Laboratory</strong>
+                  </div>
+                  <div>
+                    <time datetime="2015-01-28">Jan 2015</time> –
+                    <time datetime="2015-08-21">Aug 2015</time>
+                  </div>
+                </div>
+              </header>
+                
+                <ul>
+                    <li><p>The project is internal to the Utah Water Research Laboratory but you can see what the website looks like here: http://data.iutahepscor.org/mdf/static/mdfserver/images/development/equipment_management.png</p></li>
+                    <li><p>Inventory Management System to keep track of sensor equipment utilized for collecting environmental hydrologic data at sites for research. This system kept track of all equipment, wethere it was deployed, where it was deployed, maintenance, and any other activity related to them.</p></li>
+                    <li><p>Worked on entire level of the software development lifecycle. From requirements to deployment and maintenance.</p></li>
+                    <li><p>Combined Python, Django, jQuery, and Bootstrap to create modern web application</p></li>
+                    <li><p>Wrote DDL and DML advanced SQL queries to design and create schemas or complex data retrieval.</p></li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <h4>Internal Wiki - Wikimedia Deployment</h4>
+                <div class="meta">
+                  <div>
+                      <strong>Implementer and IT Admin</strong>
+                      at <strong>USU Campus Store</strong>
+                  </div>
+                  <div>
+                    <time datetime="2013-02-24">Feb 2013</time> –
+                    <time datetime="2013-03-15">Mar 2013</time>
+                  </div>
+                </div>
+              </header>
+                
+                <ul>
+                    <li><p>Implemented open source Wikimedia for internal wiki for employees at the USU Campus Store.</p></li>
+                    <li><p>Understanding of open source and identification of solution to common problem in my work environment.</p></li>
+                    <li><p>Full deployment and maintenance to local Linux server.</p></li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <h4>Deployment of Movement Detection Camera System</h4>
+                <div class="meta">
+                  <div>
+                      <strong>Implementer and IT Admin</strong>
+                      at <strong>USU Campus Store</strong>
+                  </div>
+                  <div>
+                    <time datetime="2013-12-03">Dec 2013</time> –
+                    <time datetime="2016-12-03">Dec 2016</time>
+                  </div>
+                </div>
+              </header>
+                
+                <ul>
+                    <li><p>Implemented cameras that detected movement and recorded video utilizing low disk space.</p></li>
+                    <li><p>Created camera system that was robust and deployed to local Linux servers.</p></li>
+                    <li><p>Utilization of open source technologies.</p></li>
+                    <li><p>Engineered scripts to support desired behavior.</p></li>
+                </ul>
+            </article>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <div class="grid-list">
+            <div>
+                <h4>Web Development</h4>
+            </div>
+            <div>
+                <h4>Python</h4>
+            </div>
+            <div>
+                <h4>Django</h4>
+            </div>
+            <div>
+                <h4>JavaScript</h4>
+            </div>
+            <div>
+                <h4>Node.js</h4>
+            </div>
+            <div>
+                <h4>SQL</h4>
+            </div>
+            <div>
+                <h4>MySQL</h4>
+            </div>
+            <div>
+                <h4>Microsoft SQL Server</h4>
+            </div>
+            <div>
+                <h4>AWS Deployment</h4>
+            </div>
+            <div>
+                <h4>Docker</h4>
+            </div>
+            <div>
+                <h4>Linux</h4>
+            </div>
+            <div>
+                <h4>Git</h4>
+            </div>
+            <div>
+                <h4>AngularJS</h4>
+            </div>
+            <div>
+                <h4>React.js</h4>
+            </div>
+            <div>
+                <h4>Redux</h4>
+            </div>
+            <div>
+                <h4>HTML5</h4>
+            </div>
+            <div>
+                <h4>CSS3</h4>
+            </div>
+            <div>
+                <h4>Linux</h4>
+            </div>
+            <div>
+                <h4>SASS</h4>
+            </div>
+            <div>
+                <h4>Bootstrap</h4>
+            </div>
+        </div>
+      </section>
+      <section id="languages">
+        <h3>Languages</h3>
+        <div class="grid-list">
+            <div>
+                <h4>English</h4>
+              Native speaker
+            </div>
+            <div>
+                <h4>Spanish</h4>
+              Native speaker
+            </div>
+        </div>
+      </section>
+      <section id="references">
+        <h3>References</h3>
+        <div class="stack">
+              <blockquote>
+                <p>Mario has been an awesome coworker.  He's not only been extremely helpful to me, but regularly puts in extra time in the evenings and on weekends to make sure projects are being done on time and that assets are produced in requested sprint cycles.</p>
+    <p>He has a very wide knowledge of all things web development, but more importantly knows what will be best suited to complete any specific projeict and do it in a timely manner.</p>
+    <p>He's got a great sense of humor and doesn't take himself too serious, which is great especially in an environment that may be stressful with deadlines fast approaching.  He's also very good at testing new technologies on a projects to make things faster, compact, and efficient.</p>
+    <p>This is one of the easier recommendations I've written as Mario and his skillset and experience speak for themselves and I'd happily recommend him for promotion from within and definitely as a valued team member should anybody be lucky enough to try and steal him away in the future.</p>
+                  <p>
+                    <cite>Brock Norton</cite>
+                  </p>
+              </blockquote>
+        </div>
+      </section>
+  </body>
+</html>
