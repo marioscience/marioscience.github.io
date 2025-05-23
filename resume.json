@@ -436,7 +436,7 @@
       "name": "Asteroids Game",
       "description": "",
       "highlights": [
-        "[Github: https://github.com/marioscience/asteroid_exploder] \nAsteroid shooting game. Using game design principles and techniques, Node.js, HTML5 Canvas, JavaScript, etc. Deployed using Heroku.",
+        "Asteroid shooting game. Using game design principles and techniques, Node.js, HTML5 Canvas, JavaScript, etc. Deployed using Heroku.",
         "Built from simple requirements all the way to deployment and maintenance.",
         "Created my first website by leveraging the power of Django.",
         "Included an admin site where users could add and modify content in different pages."
@@ -453,7 +453,7 @@
       ],
       "startDate": "2014-01-01",
       "endDate": "2015-08-31",
-      "url": "https://arcane-badlands-3605.herokuapp.com/",
+      "url": "https://github.com/marioscience/asteroid_exploder",
       "roles": [
         "Software Developer",
         "Software Architect"
@@ -551,7 +551,7 @@
   "interests": [],
   "references": [
     {
-      "name": "Brock Norton",
+      "name": "Brock Norton - Front End Developer, colleague at Red Bell Real Estate",
       "reference": "Mario has been an awesome coworker.  He's not only been extremely helpful to me, but regularly puts in extra time in the evenings and on weekends to make sure projects are being done on time and that assets are produced in requested sprint cycles.  \r\n\r\nHe has a very wide knowledge of all things web development, but more importantly knows what will be best suited to complete any specific project and do it in a timely manner.\r\n\r\nHe's got a great sense of humor and doesn't take himself too serious, which is great especially in an environment that may be stressful with deadlines fast approaching.  He's also very good at testing new technologies on a projects to make things faster, compact, and efficient.  \r\n\r\nThis is one of the easier recommendations I've written as Mario and his skill set and experience speak for themselves and I'd happily recommend him for promotion from within and definitely as a valued team member should anybody be lucky enough to try and steal him away in the future."
     }
   ]
