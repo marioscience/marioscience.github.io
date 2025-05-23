@@ -28,99 +28,99 @@
   },
   "work": [
     {
-      "company": "Freelance Work",
+      "name": "Freelance Work",
       "endDate": "",
       "highlights": [],
       "position": "Freelance Software Developer",
       "startDate": "2024-06-01",
-      "summary": "- Provided independent software development and technical consulting services to diverse clients, delivering tailored solutions for their specific needs. \n- Managed end-to-end project lifecycles, from requirements gathering and solution design to implementation, testing, and deployment using Python, Postgres and React. \n- Provided mentorship to students where I guided them through learning software engineering.",
-      "website": ""
+      "summary": "- Provided independent software development and technical consulting services to diverse clients, delivering tailored solutions for their specific needs. \n- Provided mentorship to students where I guided them through learning software engineering.",
+      "url": ""
     },
     {
-      "company": "Smart Warehousing",
+      "name": "Smart Warehousing",
       "endDate": "2023-05-20",
       "highlights": [],
       "position": "Backend Software Engineer",
       "startDate": "2022-06-15",
       "summary": "- Developed and implemented three key features for the warehouse management system using Python and Flask, resulting in a 10% improvement in operational efficiency. \n- Wrote scalable and maintainable code for business logic utilized in daily warehousing operations. \n- Utilized Docker for containerization and PostgreSQL for data management. \n- Contributed to CI/CD pipelines using Shell Scripting and Git.",
-      "website": "https://www.smartwarehousing.com/"
+      "url": "https://www.smartwarehousing.com/"
     },
     {
-      "company": "IXIS Digital",
+      "name": "IXIS Digital",
       "endDate": "2021-12-30",
       "highlights": [],
       "position": "Backend Software Engineer",
       "startDate": "2021-02-26",
       "summary": "- Analysis, design and implementation of data\nscience related features in the main platform. \n- Prescription and implementation of improved branching strategy in Git.\n- Development and refactoring of REST API services using Python/Flask. \n- Support in hiring and training efforts. \n- Refactored main platform to be more akin to a modern analytics system. Developed data science models and implemented GraphQL. \n- Collaborated as back end with the front end team to bring features to life. \n- Improved performance and maintainability of several internal projects.\n- Created Docker configurations for deployment.",
-      "website": "https://ixisdigital.com/"
+      "url": "https://ixisdigital.com/"
     },
     {
-      "company": "Spirit Technologies",
+      "name": "Spirit Technologies",
       "endDate": "2019-12-31",
       "highlights": [],
       "position": "Software Engineer",
       "startDate": "2018-11-30",
       "summary": "- Development of different features for internal use CRM module using central ERP system. \n- Node.js implementation of services and client facing API. \n- Data handling, RESTful API design and implementation using Express.js. \n- MS SQL and MySQL server database systems. DML and DDL querying of data. \n- Angular.js front end application. Bootstrap, Webpack and other supporting libraries used.\n- Implementation of ASP.NET features and services.",
-      "website": "https://www.spirittechnologies.net/"
+      "url": "https://www.spirittechnologies.net/"
     },
     {
-      "company": "Neural Technology Solutions, SRL",
+      "name": "Neural Technology Solutions, SRL",
       "endDate": "2018-09-30",
       "highlights": [],
       "position": "Software Engineer",
       "startDate": "2018-04-30",
       "summary": "- Development using ASP.NET in back end using C#.\n- Microsoft SQL DBMS System used. Writing of different DML and DDL queries. \n- Front End development using Angular (latest version).\n- Participated in standard stages of Agile Methodology.\n- Learned about Leasing and Taxed Fixed Assets Management Industries and other financial concepts.",
-      "website": "https://www.neural.com.do/"
+      "url": "https://www.neural.com.do/"
     },
     {
-      "company": "Red Bell Real Estate",
+      "name": "Red Bell Real Estate",
       "endDate": "2017-02-28",
       "highlights": [],
       "position": "Web Developer",
       "startDate": "2015-08-31",
       "summary": "- Development and maintenance of front end web applications using different technologies. - Implemented different technologies: AngularJS, TypeScript, JavaScript, Gulp, Bower/NPM, Sass, Twitter Bootstrap, Material Design, TFS Version control, Visual Studio, among other technologies. \n- Projects consisted in fixing something in the front-end side of an existing app or taking design mockups for new applications and working closely with designers and back-end devs to bring apps to life. \n- Found libraries to use as tools that solved a specific need in an app.\n- Learned many technologies that I needed for said projects. Also, studied how other applications worked to apply new techniques in my work.",
-      "website": "https://www.redbellre.com/"
+      "url": "https://www.redbellre.com/"
     },
     {
-      "company": "Utah Water Research Lab",
+      "name": "Utah Water Research Lab",
       "endDate": "2015-08-31",
       "highlights": [],
       "position": "Web Developer",
       "startDate": "2014-01-31",
       "summary": "- Development of Web Applications built from given design specifications. \n- Wrote DDL and DML SQL queries to design database schemas or complex data retrieval. \n- Used database schemas that often worked with other applications. \n- Developed applications using Django framework and JavaScript. \n- Acquired experience in Git and deployment of applications.\n- Worked on all levels of the software development stack. Back end, front end and data store layer experience.\n- Knowledge of the entire software development lifecycle. Proficiency building applications from requirements to deployment.",
-      "website": "https://uwrl.usu.edu/"
+      "url": "https://uwrl.usu.edu/"
     },
     {
-      "company": "USU Campus Store",
+      "name": "USU Campus Store",
       "endDate": "2014-01-31",
       "highlights": [],
       "position": "IT Support",
       "startDate": "2012-02-28",
-      "website": "https://usucampusstore.com/"
+      "url": "https://usucampusstore.com/"
     },
     {
-      "company": "CMS - Computer Maintenance Service",
+      "name": "CMS - Computer Maintenance Service",
       "endDate": "2011-08-31",
       "highlights": [],
       "position": "Computer Technician",
       "startDate": "2010-03-31",
-      "website": ""
+      "url": ""
     },
     {
-      "company": "Yellow Pages",
+      "name": "Yellow Pages",
       "endDate": "2010-03-31",
       "highlights": [],
       "position": "Pagination",
       "startDate": "2010-01-31",
-      "website": "https://www.yellowpages.com/"
+      "url": "https://www.yellowpages.com/"
     },
     {
-      "company": "REFIDOMSA",
+      "name": "REFIDOMSA",
       "endDate": "2010-01-31",
       "highlights": [],
       "position": "Electronics Technician",
       "startDate": "2008-10-31",
-      "website": "https://refidomsa.com/"
+      "url": "https://refidomsa.com/"
     }
   ],
   "volunteer": [],
@@ -133,10 +133,10 @@
       "endDate": "2022-12-31",
       "gpa": "",
       "courses": [
-        "CS401 - Modern Programming Practices", 
-        "CS435 - Algorithm", 
-        "CS582 - Machine Learning", 
-        "CS488 - Big Data Analytics", 
+        "CS401 - Modern Programming Practices",
+        "CS435 - Algorithm",
+        "CS582 - Machine Learning",
+        "CS488 - Big Data Analytics",
         "CS522 - Big Data"
       ]
     },
@@ -177,13 +177,13 @@
       "level": "Master",
       "keywords": [
         "Python",
-	"Django",
-	"Flask",
-	"Node.js",
-	"Postgres",
-	"Docker",
-	"Linux",
-	"AWS"
+        "Django",
+        "Flask",
+        "Node.js",
+        "Postgres",
+        "Docker",
+        "Linux",
+        "AWS"
       ]
     },
     {
@@ -205,15 +205,28 @@
         "JetBrains IDE",
         "Jira"
       ]
-   },
-   {
+    },
+    {
       "name": "Frontend Development",
-      "level": "Master",
+      "level": "Advanced",
       "keywords": [
         "JavaScript",
         "React/Redux",
         "Bootstrap, SASS/CSS3",
         "HTML5"
+      ]
+    },
+    {
+      "name": "AI Development and Data",
+      "level": "Intermediate",
+      "keywords": [
+        "PyTorch",
+        "Keras",
+        "Scikit-learn",
+        "Jupyter Notebook",
+        "numpy",
+        "pandas",
+        "matplotlib"
       ]
     }
   ],
@@ -230,13 +243,21 @@
         "The entire process was documented in the mock research paper: https://github.com/marioscience/image-colorizer-notebook/blob/master/Research%20Paper.pdf"
       ],
       "keywords": [
-        "Keras", "TensorFlow", "Python", "Docker", "Jupyter Notebook", "pandas", "matplotlib", "numpy"
+        "Keras",
+        "TensorFlow",
+        "Python",
+        "Docker",
+        "Jupyter Notebook",
+        "pandas",
+        "matplotlib",
+        "numpy"
       ],
       "startDate": "2020-07-15",
       "endDate": "2020-07-18",
       "url": "https://github.com/marioscience/image-colorizer-notebook/blob/master/image-colorization.py.ipynb",
       "roles": [
-        "Software Developer", "Researcher"
+        "Software Developer",
+        "Researcher"
       ],
       "entity": "Machine Learning class at MIU",
       "type": "application"
@@ -253,13 +274,21 @@
         "Created UI using React.js reusable components. Responsive layout was created using compact and elegant CSS3 flex layout."
       ],
       "keywords": [
-        "Python", "React.js", "Javascript", "Docker", "pandas", "sklearn", "numpy", "HTML5/CSS3"
+        "Python",
+        "React.js",
+        "Javascript",
+        "Docker",
+        "pandas",
+        "sklearn",
+        "numpy",
+        "HTML5/CSS3"
       ],
       "startDate": "2020-06-15",
       "endDate": "2020-07-24",
       "url": "https://github.com/marioscience/movie-recommender/",
       "roles": [
-        "Software Architect", "Software Developer"
+        "Software Architect",
+        "Software Developer"
       ],
       "entity": "Machine Learning class at MIU",
       "type": "application"
@@ -274,13 +303,15 @@
         "Combined power of Scala, Spark and server configurations to process large input files"
       ],
       "keywords": [
-        "Scala", "Spark"
+        "Scala",
+        "Spark"
       ],
       "startDate": "2020-05-18",
       "endDate": "2020-06-12",
       "url": "https://github.com/marioscience/spark-final-project",
       "roles": [
-        "Distributed Systems Architect", "Software Developer"
+        "Distributed Systems Architect",
+        "Software Developer"
       ],
       "entity": "Data Science classes at MIU",
       "type": "application"
@@ -295,13 +326,18 @@
         "Containerized application by writing Docker configuration."
       ],
       "keywords": [
-        "Hadoop", "MapReduce", "Java", "Docker", "BASH Scripting"
+        "Hadoop",
+        "MapReduce",
+        "Java",
+        "Docker",
+        "BASH Scripting"
       ],
       "startDate": "2020-06-05",
       "endDate": "2020-06-25",
       "url": "https://github.com/marioscience/docker-hadoop-wordcount",
       "roles": [
-        "Web Developer", "Distributed Systems Engineer"
+        "Web Developer",
+        "Distributed Systems Engineer"
       ],
       "entity": "Data Science classes at MIU",
       "type": "application"
@@ -316,13 +352,23 @@
         "Worked in advanced architecture that included technologies such as Node.js, Express.js, PM2, MySQL, Angular, Bootstrap, ASP.NET, C#, SQL Server"
       ],
       "keywords": [
-        "Node.js", "Express.js", "PM2", "MySQL", "Angular", "Bootstrap", "ASP.NET", "C#", "SQL Server", "Javascript"
+        "Node.js",
+        "Express.js",
+        "PM2",
+        "MySQL",
+        "Angular",
+        "Bootstrap",
+        "ASP.NET",
+        "C#",
+        "SQL Server",
+        "Javascript"
       ],
       "startDate": "2018-10-01",
       "endDate": "2019-12-31",
       "url": "",
       "roles": [
-        "Software Developer", "Application Architect"
+        "Software Developer",
+        "Application Architect"
       ],
       "entity": "Spirit Technologies SRL",
       "type": "application"
@@ -338,20 +384,28 @@
         "Designed and integrated many REST APIs"
       ],
       "keywords": [
-        "Angular.js", "JavaScript", "TypeScript", "Gulp", "Bower", "NPM", "Bootstrap", "SASS"
+        "Angular.js",
+        "JavaScript",
+        "TypeScript",
+        "Gulp",
+        "Bower",
+        "NPM",
+        "Bootstrap",
+        "SASS"
       ],
       "startDate": "2015-08-01",
       "endDate": "2017-03-22",
       "url": "https://homegenius.com/public/home",
       "roles": [
-        "Team lead", "Web Developer"
+        "Team lead",
+        "Web Developer"
       ],
       "entity": "Red Bell Real Estate",
       "type": "application"
     },
     {
       "name": "iUtah Main Website",
-      "description": "", 
+      "description": "",
       "highlights": [
         "[Github: https://github.com/UCHIC/iUTAHData] \nMain website of iUtah project. An ambitious research project to collect and analyze environmental hydrologic data. The website has a D3.js dashboard that displays data processed in the backend. This data comes from sensors deployed in the field measuring a wide range of variables.",
         "Built from simple requirements all the way to deployment and maintenance.",
@@ -359,13 +413,21 @@
         "Included an admin site where users could add and modify content in different pages."
       ],
       "keywords": [
-        "Pyhton", "Django", "JavaScript", "D3.js", "jQuery", "AJAX", "Bootstrap", "HTML5/CSS3"
+        "Pyhton",
+        "Django",
+        "JavaScript",
+        "D3.js",
+        "jQuery",
+        "AJAX",
+        "Bootstrap",
+        "HTML5/CSS3"
       ],
       "startDate": "2014-01-01",
       "endDate": "2015-08-31",
       "url": "http://data.iutahepscor.org/mdf/river_info/iUTAH_RedButte_OD/RB_ARBR_C/",
       "roles": [
-        "Software Developer", "Software Architect"
+        "Software Developer",
+        "Software Architect"
       ],
       "entity": "Utah Water Research Laboratory",
       "type": "application"
@@ -380,13 +442,21 @@
         "Included an admin site where users could add and modify content in different pages."
       ],
       "keywords": [
-        "Pyhton", "Django", "JavaScript", "D3.js", "jQuery", "AJAX", "Bootstrap", "HTML5/CSS3"
+        "Pyhton",
+        "Django",
+        "JavaScript",
+        "D3.js",
+        "jQuery",
+        "AJAX",
+        "Bootstrap",
+        "HTML5/CSS3"
       ],
       "startDate": "2014-01-01",
       "endDate": "2015-08-31",
       "url": "https://arcane-badlands-3605.herokuapp.com/",
       "roles": [
-        "Software Developer", "Software Architect"
+        "Software Developer",
+        "Software Architect"
       ],
       "entity": "Game Development class @ USU",
       "type": "application"
@@ -402,33 +472,43 @@
         "Wrote DDL and DML advanced SQL queries to design and create schemas or complex data retrieval."
       ],
       "keywords": [
-        "Python", "Django", "JavaScript", "jQuery", "Bootstrap", "HTML5/CSS3"
+        "Python",
+        "Django",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap",
+        "HTML5/CSS3"
       ],
       "startDate": "2015-01-28",
       "endDate": "2015-08-21",
       "url": "https://github.com/UCHIC/ODM2Sensor",
       "roles": [
-        "Team lead", "Web Developer", "System Architect"
+        "Team lead",
+        "Web Developer",
+        "System Architect"
       ],
       "entity": "Utah Water Research Laboratory",
       "type": "application"
     },
     {
       "name": "Internal Wiki - Wikimedia Deployment",
-      "description": "", 
+      "description": "",
       "highlights": [
         "Implemented open source Wikimedia for internal wiki for employees at the USU Campus Store.",
         "Understanding of open source and identification of solution to common problem in my work environment.",
         "Full deployment and maintenance to local Linux server."
       ],
       "keywords": [
-        "Open Source", "Wikimedia", "Deployment"
+        "Open Source",
+        "Wikimedia",
+        "Deployment"
       ],
       "startDate": "2013-02-24",
       "endDate": "2013-03-15",
       "url": "",
       "roles": [
-        "Implementer", "IT Admin"
+        "Implementer",
+        "IT Admin"
       ],
       "entity": "USU Campus Store",
       "type": "deployment"
@@ -443,17 +523,20 @@
         "Engineered scripts to support desired behavior."
       ],
       "keywords": [
-        "Camera System", "Movement Detection", "Security"
+        "Camera System",
+        "Movement Detection",
+        "Security"
       ],
       "startDate": "2013-12-03",
       "endDate": "2016-12-03",
       "url": "",
       "roles": [
-        "Implementer", "IT Admin"
+        "Implementer",
+        "IT Admin"
       ],
       "entity": "USU Campus Store",
       "type": "deployment"
-    }    
+    }
   ],
   "languages": [
     {
